@@ -1300,7 +1300,7 @@ $(".like").on("click",function(){
               
                   setTimeout(function () {
                   if(soshina_q3 === 1){
-                        $(".question4").html("1黙れぼけえ")
+                        $(".question4").html("黙れぼけえ")
                         $(".question4").css("background-color", "#DDDDDD");
                         $(".woman").html('<img src="./img/soshina/lose.jpeg" alt="success">');
                   }else if(soshina_q3 === 2){
@@ -1875,11 +1875,11 @@ $(".like").on("click",function(){
 
                   }else if(soshina_q2 === 2){
                         $(".question3").html("前田龍ニくらいかな")
-                        $(".question4").css("background-color", "#DDDDDD");
+                        $(".question3").css("background-color", "#DDDDDD");
 
                   }else {
                         $(".question3").html("あのちゃんと仲良いで")
-                        $(".question4").css("background-color", "#DDDDDD");
+                        $(".question3").css("background-color", "#DDDDDD");
 
                   }
 
@@ -3343,7 +3343,7 @@ $(".like").on("click",function(){
               
                   setTimeout(function () {
                   if(kanna_q3 === 1){
-                        $(".question4").html("1忙しいからまたね！")
+                        $(".question4").html("忙しいからまたね！")
                         $(".question4").css("background-color", "#DDDDDD");
                         $(".woman").html('<img src="./img/kanna/lose.jpeg" alt="success">');
                   }else if(kanna_q3 === 2){
@@ -3918,11 +3918,11 @@ $(".like").on("click",function(){
 
                   }else if(kanna_q2 === 2){
                         $(".question3").html("ありがとう！励みになります！")
-                        $(".question4").css("background-color", "#DDDDDD");
+                        $(".question3").css("background-color", "#DDDDDD");
 
                   }else {
                         $(".question3").html("これからもしてね！")
-                        $(".question4").css("background-color", "#DDDDDD");
+                        $(".question3").css("background-color", "#DDDDDD");
 
                   }
 
@@ -5387,7 +5387,7 @@ $(".like").on("click",function(){
               
                   setTimeout(function () {
                   if(daigo_q3 === 1){
-                        $(".question4").html("1まあ男にしか興味ないから")
+                        $(".question4").html("まあ男にしか興味ないから")
                         $(".question4").css("background-color", "#DDDDDD");
                         $(".woman").html('<img src="./img/daigo/lose.jpeg" alt="success">');
                   }else if(daigo_q3 === 2){
@@ -5962,11 +5962,11 @@ $(".like").on("click",function(){
 
                   }else if(daigo_q2 === 2){
                         $(".question3").html("俺らの初めてレビュラーだからな")
-                        $(".question4").css("background-color", "#DDDDDD");
+                        $(".question3").css("background-color", "#DDDDDD");
 
                   }else {
                         $(".question3").html("今でもゆるくやってるなぁ")
-                        $(".question4").css("background-color", "#DDDDDD");
+                        $(".question3").css("background-color", "#DDDDDD");
 
                   }
 
@@ -7431,7 +7431,7 @@ $(".like").on("click",function(){
               
                   setTimeout(function () {
                   if(nobu_q3 === 1){
-                        $(".question4").html("1だまれ！！！ぼけ！！")
+                        $(".question4").html("だまれ！！！ぼけ！！")
                         $(".question4").css("background-color", "#DDDDDD");
                         $(".woman").html('<img src="./img/nobu/lose.jpeg" alt="success">');
                   }else if(nobu_q3 === 2){
@@ -8006,11 +8006,11 @@ $(".like").on("click",function(){
 
                   }else if(nobu_q2 === 2){
                         $(".question3").html("どっか行け！！")
-                        $(".question4").css("background-color", "#DDDDDD");
+                        $(".question3").css("background-color", "#DDDDDD");
 
                   }else {
                         $(".question3").html("お前はマジでどっか行け！！")
-                        $(".question4").css("background-color", "#DDDDDD");
+                        $(".question3").css("background-color", "#DDDDDD");
 
                   }
 
@@ -9474,7 +9474,7 @@ $(".like").on("click",function(){
               
                   setTimeout(function () {
                   if(seiya_q3 === 1){
-                        $(".question4").html("1これからも応援してくれよな！！")
+                        $(".question4").html("これからも応援してくれよな！！")
                         $(".question4").css("background-color", "#DDDDDD");
                         $(".woman").html('<img src="./img/seiya/lose.jpeg" alt="success">');
                   }else if(seiya_q3 === 2){
@@ -10049,11 +10049,11 @@ $(".like").on("click",function(){
 
                   }else if(seiya_q2 === 2){
                         $(".question3").html("Tverで？？")
-                        $(".question4").css("background-color", "#DDDDDD");
+                        $(".question3").css("background-color", "#DDDDDD");
 
                   }else {
                         $(".question3").html("どうやって見てんの？？")
-                        $(".question4").css("background-color", "#DDDDDD");
+                        $(".question3").css("background-color", "#DDDDDD");
 
                   }
 

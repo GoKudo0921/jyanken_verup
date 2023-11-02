@@ -148,7 +148,7 @@ $(".like").on("click",function(){
                               $(".question1").css("background-color", "#DDDDDD");
                         }, 2000);
 
-                        $(".first-choice1").html('<button class="test" style="width: 250px;">チンチロ大好きです！</button>');
+                        $(".first-choice1").html('<button class="test" style="width: 250px;">チンチロ大好きです！ガチで！！</button>');
                         $(".first-choice2").html('<button class="test" style="width: 250px;">YouTubeいつも見てます！！</button>');
                         $(".first-choice3").html('<button class="test" style="width: 250px;">お前のこと誰が好きなん？</button>');
                   }else if(w === 2){
@@ -242,7 +242,7 @@ $(".like").on("click",function(){
             if(w === 1){
                    let soshina_q = Math.ceil(Math.random()*3);
 
-                  $(".answer1").html("チンチロ大好きです！");
+                  $(".answer1").html("チンチロ大チンチロ大好きです！ガチで！！");
                   $(".answer1").css("background-color", "#00FF00");
 
                   setTimeout(function () {
@@ -3255,9 +3255,9 @@ $(".like").on("click",function(){
                         $(".question3").css("background-color", "#DDDDDD");
                   }
 
-                  $(".third-choice1").html('<button class="test" style="width: 250px;">ギャンブルやめなね！</button>');
-                  $(".third-choice2").html('<button class="test" style="width: 250px;">今度一緒にパチンコ行こう！</button>');
-                  $(".third-choice3").html('<button class="test" style="width: 250px;">競馬やりたい</button>');
+                  $(".third-choice1").html('<button class="test" style="width: 250px;">嘘です！！笑</button>');
+                  $(".third-choice2").html('<button class="test" style="width: 250px;">作品が多すぎるんよ</button>');
+                  $(".third-choice3").html('<button class="test" style="width: 250px;">思い出したら伝えるね笑</button>');
 
                   }, 7500);
 
@@ -5299,9 +5299,9 @@ $(".like").on("click",function(){
                         $(".question3").css("background-color", "#DDDDDD");
                   }
 
-                  $(".third-choice1").html('<button class="test" style="width: 250px;">ギャンブルやめなね！</button>');
-                  $(".third-choice2").html('<button class="test" style="width: 250px;">今度一緒にパチンコ行こう！</button>');
-                  $(".third-choice3").html('<button class="test" style="width: 250px;">競馬やりたい</button>');
+                  $(".third-choice1").html('<button class="test" style="width: 250px;">もう連絡しません！！</button>');
+                  $(".third-choice2").html('<button class="test" style="width: 250px;">また連絡して良いですか？</button>');
+                  $(".third-choice3").html('<button class="test" style="width: 250px;">飲み行きましょうや！！</button>');
 
                   }, 7500);
 
@@ -5759,9 +5759,9 @@ $(".like").on("click",function(){
                         $(".question3").css("background-color", "#DDDDDD");
                   }
 
-                  $(".third-choice1").html('<button class="test" style="width: 250px;">お前がな</button>');
-                  $(".third-choice2").html('<button class="test" style="width: 250px;">お前もな</button>');
-                  $(".third-choice3").html('<button class="test" style="width: 250px;">ひどい！</button>');
+                  $(".third-choice1").html('<button class="test" style="width: 250px;">俺も飲み行きたい！</button>');
+                  $(".third-choice2").html('<button class="test" style="width: 250px;">これからもファンとして応援し続けます！！</button>');
+                  $(".third-choice3").html('<button class="test" style="width: 250px;">酒とタバコやめなよ！！</button>');
 
                   }, 7500);
 
@@ -9386,9 +9386,9 @@ $(".like").on("click",function(){
                         $(".question3").css("background-color", "#DDDDDD");
                   }
 
-                  $(".third-choice1").html('<button class="test" style="width: 250px;">ギャンブルやめなね！</button>');
-                  $(".third-choice2").html('<button class="test" style="width: 250px;">今度一緒にパチンコ行こう！</button>');
-                  $(".third-choice3").html('<button class="test" style="width: 250px;">競馬やりたい</button>');
+                  $(".third-choice1").html('<button class="test" style="width: 250px;">きっと2人とも幸せになりますよね！！</button>');
+                  $(".third-choice2").html('<button class="test" style="width: 250px;">粗品さん応援してます！！</button>');
+                  $(".third-choice3").html('<button class="test" style="width: 250px;">どんな子に育つか楽しみ！</button>');
 
                   }, 7500);
 

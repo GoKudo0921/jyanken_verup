@@ -1,0 +1,258 @@
+/* トップ　ここから */
+
+/* ふわっと表示 */
+.wrap-top {
+	opacity: 0;
+	transform: translateY(30px);
+	transition: opacity 1.5s, transform 30s;
+}
+.wrap-top.active {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+
+/* トップとタイトル */
+
+.top-body {
+      background-image: url(../img/top.jpeg);
+}
+
+/* 上下中央よせ */
+.wrap-top {
+      display: flex;
+      flex-direction: column; /* 要素を縦に配置 */
+      justify-content: center; /* 垂直中央寄せ */
+      align-items: center; /* 水平中央寄せ */
+      height: 100vh; /* 親要素の高さを画面いっぱいに設定 */
+}
+
+.btn {
+      height: 500px;
+      display: flex;
+      flex-direction: column; /* 要素を縦に配置 */
+      justify-content: center; /* 垂直中央寄せ */
+      align-items: center; /* 水平中央寄せ */
+      margin: 10px; /* 必要に応じて余白を調整 */
+      text-align: center;
+}
+
+/* トップの背景 */
+.btn {
+      background-color:#FFFFEE;
+      border-radius: 100%;
+      width: 1300px;
+}
+
+/* 文言とボタン */
+
+.button003 {
+      padding: 30px;
+      width: 300px;
+}
+
+.button003 a {
+      background: #eee;
+      border-radius: 50px;
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0 auto;
+      max-width: 260px;
+      padding: 10px 25px;
+      color: #313131;
+      transition: 0.3s ease-in-out;
+      font-weight: 500;
+  }
+  .button003 a:hover {
+      background: #313131;
+      color: #FFF;
+  }
+  .button003 a:after {
+      content: '';
+      width: 5px;
+      height: 5px;
+      border-top: 3px solid #313131;
+      border-right: 3px solid #313131;
+      transform: rotate(45deg) translateY(-50%);
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      border-radius: 1px;
+      transition: 0.3s ease-in-out;
+  }
+  .button003 a:hover:after {
+      border-color: #FFF;
+  }
+
+  /* トップ　ここまで */
+
+
+  /* Meet　ここから */
+
+.match-wait {
+      font-weight: bold;
+      text-align: center;
+}
+
+/* 点滅 */
+.match-wait {
+      animation: blink 1s infinite;
+      padding: 10px;
+      font-size: 20px;
+
+  }
+  
+  @keyframes blink {
+      0% {
+          opacity: 1;
+      }
+      50% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+
+/* 点滅ここまで */
+
+.woman {
+      /* margin: auto; */
+      text-align: center;
+      width: 400px;
+}
+
+.start {
+      background-color: #CCFF99;
+      border-radius: 10px;
+}
+
+.start:hover {
+      background-color: black;
+      color: white;
+}
+
+.wrap-start {
+      text-align: center;
+      padding: 20px;
+}
+
+.meet-body {
+      background-color:#FFFFEE;
+}
+
+
+.wrap-meet {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .nope {
+      text-align: right;
+  }
+
+  .nope img {
+      width: 20%;
+  }
+
+  .like {
+      text-align: left;
+  }
+
+  .like img {
+      width: 20%;
+  }
+
+  .profile {
+      text-align: center;
+      padding: 10px;
+  }
+
+.wrap-profile {
+      margin: auto;
+}
+
+.content-title1 ,.content-title2 ,.content-title3 ,.content-title4 ,.content-title5 {
+      text-align: left;
+      font-weight: bold;
+      padding: 0 20px 0 0 ;
+}
+
+.name , .address , .work , .hobby , .comment {
+      text-align-last: left;
+      
+}
+
+.woman img{
+      border-radius: 10%;
+      text-align: center;
+}
+
+  /* Meet　ここまで */
+
+
+  /* chat　ここから */
+.chat-body {
+      background-color:#FFFFEE;
+}
+
+.chat-woman {
+      text-align: center;
+}
+
+.wrap-choice {
+      width: 300px;
+      text-align: right;
+}
+
+.wrap-choice1 , .wrap-choice2 , .wrap-choice3 {
+      /* display: flex; */
+      justify-content: flex-end;
+}
+
+.first-choice1 , .first-choice2 , .first-choice3 , .second-choice1 , .second-choice2 , .second-choice3 , .third-choice1 , .third-choice2 , .third-choice3 {
+      padding: 10px;
+      border-radius: 10%;
+}
+
+.test {
+      border-radius: 50px;
+      background-color: #CCFF99;
+}
+
+.test:hover {
+      color: white;
+      background-color: black;
+}
+
+.question1 , .question2, .question3 , .question , .question4 {
+      padding: 10px;
+      margin: 10px 300px 0 0 ;
+      text-align: left;
+      width: 250px;
+      border-radius: 12px;
+} 
+
+.answer1  , .answer2 , .answer3 {
+      padding: 10px;
+      margin: 10px 0 0 300px;
+      text-align: right;
+      width: 250px;
+      border-radius: 12px;
+}
+
+
+.wrap-result-img {
+      display: flex;
+      justify-content: space-around;
+}
+
+.result-img1 , .result-img2 , .result-img3 , .result-img4 {
+      border-radius: 10%;
+      padding: 20px;
+} 
+  /* chat　ここまで */
+
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+      <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>芸能人-meet</title>
+            <link rel="stylesheet" href="./css/reset.css">
+            <link rel="stylesheet" href="./css/style.css">
+      </head>
+<body class="meet-body">
+
+<div class="wrap-start">
+      <button class="start">芸能人を選ぶ</button>
+</div>
+
+<div class="match-wait"></div>
+
+<div class="meet">
+      <div>
+            <div class="wrap-meet">
+                  <div class="nope"><img src="./img/nope.png" alt="nope">
+                  </div>
+
+                  <div>
+                        <div class="woman">  
+                              上のボタンを押してね <!-- 写真を入れる場所 -->
+                        </div> 
+                        <div>
+                             <div><table class="wrap-profile">
+                                          <tr class="content">
+                                                <td class="content-title1"></td><td class="name"></td>
+                                          </tr>
+                                          <tr class="content">
+                                                <td class="content-title2"></td><td class="address"></td>
+                                          </tr>
+                                          <tr class="content">
+                                                <td class="content-title3"></td><td class="work"></td>
+                                          </tr>
+                                          <tr class="content">
+                                                <td class="content-title4"></td><td class="hobby"></td>
+                                          </tr>
+                                          <tr class="content">
+                                                <td class="content-title5"></td><td class="comment"></td>
+                                          </tr>
+                                    </table>
+                              </div>
+                        </div>
+                  </div>
+
+                  <div class="like"><img src="./img/like.png" alt="like">
+                  </div>
+            </div>
+      </div>
+
+
+      <div class="chat">
+            <div class="question1"></div> <!-- 初めの相手からのコメント -->
+            <div class="answer1"></div> <!-- 最初の選択肢 -->
+            <div class="question2"></div> <!-- 選択肢に対する1回目の回答 -->
+            <div class="answer2"></div> <!-- ２番目の選択肢 -->
+            <div class="question3"></div> <!-- ２番目の選択肢に対する回答 -->
+            <div class="answer3"></div> <!-- ３番目の選択肢 -->
+            <div class="question4"></div> <!-- ３番目の選択肢に対する回答 -->
+      </div>
+            <div>
+                        <!-- 最初の質問 -->
+                  <div class="wrap-choice">
+                        <div class="wrap-choice1">
+                              <div class="first-choice1"></div>
+                              <div class="first-choice2"></div>
+                              <div class="first-choice3"></div>
+                        </div>
+                  
+                        <!-- 2個目の質問 -->
+                        <div class="wrap-choice2">
+                              <div class="second-choice1"></div>
+                              <div class="second-choice2"></div>
+                              <div class="second-choice3"></div>
+                        </div>
+                  
+                        <!-- 3個目の質問 -->
+                        <div class="wrap-choice3">
+                              <div class="third-choice1"></div>
+                              <div class="third-choice2"></div>
+                              <div class="third-choice3"></div>
+                        </div>
+                  </div>
+            </div>
+</div>
+
+
+
+<div class="wrap-result-img">
+      <p class="result-img1"></p>
+      <p class="result-img2"></p>
+      <p class="result-img3"></p>
+      <p class="result-img4"></p>
+</div>
+
+
+
+    <!-- js -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./js/javascript.js"></script>
+
+</body>
+</html>

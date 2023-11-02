@@ -3926,7 +3926,7 @@ $(".like").on("click",function(){
 
                   }
 
-                  $(".third-choice1").html('<button class="test" style="width: 250px;">離婚した？</button>');
+                  $(".third-choice1").html('<button class="test" style="width: 250px;">はい！！これからもイイねとコメントしまくる！</button>');
                   $(".third-choice2").html('<button class="test" style="width: 250px;">今度コメントしてみます！</button>');
                   $(".third-choice3").html('<button class="test" style="width: 250px;">これからも頑張ってください！！</button>');
 
@@ -5970,7 +5970,7 @@ $(".like").on("click",function(){
 
                   }
 
-                  $(".third-choice1").html('<button class="test" style="width: 250px;">離婚した？</button>');
+                  $(".third-choice1").html('<button class="test" style="width: 250px;">極悪人の顔だけど好きです！！</button>');
                   $(".third-choice2").html('<button class="test" style="width: 250px;">本物か怪しいけど、一回会ってみたい</button>');
                   $(".third-choice3").html('<button class="test" style="width: 250px;">飲み行きませんか？？</button>');
 
@@ -8014,7 +8014,7 @@ $(".like").on("click",function(){
 
                   }
 
-                  $(".third-choice1").html('<button class="test" style="width: 250px;">離婚した？</button>');
+                  $(".third-choice1").html('<button class="test" style="width: 250px;">飲みに行こうぜ〜おいノブ〜</button>');
                   $(".third-choice2").html('<button class="test" style="width: 250px;">お前のこと誰が好きなん？</button>');
                   $(".third-choice3").html('<button class="test" style="width: 250px;">お前もな！！</button>');
 
@@ -10057,7 +10057,7 @@ $(".like").on("click",function(){
 
                   }
 
-                  $(".third-choice1").html('<button class="test" style="width: 250px;">離婚した？</button>');
+                  $(".third-choice1").html('<button class="test" style="width: 250px;">Tverでいつも見てます！！</button>');
                   $(".third-choice2").html('<button class="test" style="width: 250px;">めっちゃファンなんで笑</button>');
                   $(".third-choice3").html('<button class="test" style="width: 250px;">すごい面白い企画ですよね笑　Tverで見てます！</button>');
 
